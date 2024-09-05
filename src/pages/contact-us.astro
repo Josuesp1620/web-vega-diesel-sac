@@ -3,104 +3,111 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Contact US" page="contact-us" client:load>
-    <div id="banner-area" class="banner-area" style="background-image:url(assets/images/banner/banner1.jpg)">
+	<div id="banner-area" class="banner-area" style="background-image:url(assets/images/banner/banner1.jpg)">
 		<div class="banner-text">
-     		<div class="container">
-	        	<div class="row">
-	        		<div class="col-xs-12">
-	        			<div class="banner-heading">
-	        				<h1 class="border-title border-left">Contact 1</h1>
-	        				<ol class="breadcrumb">
-	        					<li>Home</li>
-	        					<li>Contact</li>
-	        					<li><a href="contact1.html#">Contact 1</a></li>
-	        				</ol>
-	        			</div>
-	        		</div><!-- Col end -->
-	        	</div><!-- Row end -->
-       	</div><!-- Container end -->
-    	</div><!-- Banner text end -->
-	</div><!-- Banner area end --> 
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="banner-heading">
+							<h1 class="border-title border-left">Contacto</h1>
+							<ol class="breadcrumb">
+								<li>Inicio</li>
+								<li>Contacto</li>
+								<li><a href="contact1.html#">Contacto</a></li>
+							</ol>
+						</div>
+					</div><!-- Col end -->
+				</div><!-- Row end -->
+			</div><!-- Container end -->
+		</div><!-- Banner text end -->
+	</div><!-- Banner area end -->
+	
 
 	<section id="main-container" class="main-container">
 		<div class="container">
-
+	
 			<div class="row">
-
+	
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="sidebar sidebar-left">
 						<div class="widget contact-info">
-							<h3 class="widget-title">Contact Us</h3>
-
+							<h3 class="widget-title">Contáctanos</h3>
+	
 							<div class="contact-info-box">
 								<i class="fa fa-map">&nbsp;</i>
 								<div class="contact-info-box-content">
-									<h4>Visit Us</h4>
-									<p>Cornike Center, 3021 Horizon Circle</p>
+									<h4>Visítanos</h4>
+									<p>APV. Sol de Santa Anita Mz. Q Lt. 10, Distrito: Santa Anita</p>
 								</div>
 							</div>
-
+	
 							<div class="contact-info-box">
 								<i class="fa fa-envelope">&nbsp;</i>
 								<div class="contact-info-box-content">
-									<h4>Mail Us</h4>
-									<p><a href="https://demo.themewinter.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d8bbb7b6acb9bbac98bbb7aab6b1b3bdf6bbb7b5f6adb3">[email&#160;protected]</a></p>
+									<h4>Envíanos un Correo</h4>
+									<p><a href="mailto:info@vegadieselsac.com">info@vegadieselsac.com</a></p>
 								</div>
 							</div>
-
+	
 							<div class="contact-info-box">
 								<i class="fa fa-phone-square">&nbsp;</i>
 								<div class="contact-info-box-content">
-									<h4>Call Us</h4>
-									<p>+253-480-8973</p>
+									<h4>Llámamos</h4>
+									<p>+51 999374434 / +51 016938151</p>
 								</div>
 							</div>
-
+	
 						</div><!-- Widget end -->
 					</div><!-- Sidebar left end -->
 				</div><!-- Sidebar col end -->
-
+	
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-	    			<h3 class="border-title border-left">Contact Form</h3>
-	    			<form id="contact-form" action="https://demo.themewinter.com/html/cornike/construction/contact-form.php" method="post" role="form">
-	    				<div class="error-container"></div>
+					<h3 class="border-title border-left">Formulario de Contacto</h3>
+					<form id="contact-form" action="https://demo.themewinter.com/html/cornike/construction/contact-form.php" method="post" role="form">
+						<div class="error-container"></div>
 						<div class="row">
 							<div class="col-md-4">
 								<div class="form-group">
-									<label>Name</label>
-								<input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
+									<label>Nombre</label>
+									<input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="form-group">
-									<label>Email</label>
-									<input class="form-control form-control-email" name="email" id="email" 
-									placeholder="" type="email" required>
+									<label>Correo Electrónico</label>
+									<input class="form-control form-control-email" name="email" id="email" placeholder="" type="email" required>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="form-group">
-									<label>Subject</label>
-									<input class="form-control form-control-subject" name="subject" id="subject" 
-									placeholder="" required>
+									<label>Asunto</label>
+									<input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
 								</div>
 							</div>
 						</div>
 						<div class="form-group">
-							<label>Message</label>
+							<label>Mensaje</label>
 							<textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
 						</div>
 						<div class="text-right"><br>
-							<button class="btn btn-primary solid blank" type="submit">Send Message</button> 
+							<button class="btn btn-primary solid blank" type="submit">Enviar Mensaje</button> 
 						</div>
 					</form>
-	    		</div>
+				</div>
 			
 			</div><!-- Content row -->
-		</div><!-- Conatiner end -->
+		</div><!-- Container end -->
 	</section><!-- Main container end -->
+	
 
 	<section id="map-wrapper" class="no-padding">
-		<div id="map" class="map"></div>
+		<iframe 
+			src="https://www.google.com/maps/embed/v1/place?q=vega+diesel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" 
+			width="100%" 
+			height="450" 
+			style={{ border: '0' }} 			
+			loading="lazy"			
+			title="Google Map"
+		></iframe>
 	</section><!-- Map end -->
 </Layout>
