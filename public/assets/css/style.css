@@ -1789,6 +1789,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .facts-wrapper .ts-facts {
    color: #fff;
+   display: inline-block;
 }
 
 .ts-facts .ts-facts-icon i {
@@ -1798,13 +1799,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .ts-facts .ts-facts-content .ts-facts-num {
    color: #fff;
-   font-size: 44px;
+   font-size: 30px;
    margin: 25px 0 0;
    display: inline-block;
 }
 
 .ts-facts .ts-facts-content .ts-facts-title {
-   font-size: 16px;
+   font-size: 15px;
    color: #ffc000;
    margin: 0 0 0 10px;
    display: inline-block;
