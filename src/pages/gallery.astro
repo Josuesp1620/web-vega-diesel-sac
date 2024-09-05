@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Inicio" page="gallery" client:load>
+	
+	<div id="banner-area" class="banner-area" style="background-image:url(assets/images/banner/banner2.jpg)">
+		<div class="banner-text">
+     		<div class="container">
+	        	<div class="row">
+	        		<div class="col-xs-12">
+	        			<div class="banner-heading">
+	        				<h1 class="border-title border-left">Gallery</h1>
+	        				<ol class="breadcrumb">
+	        					<li>Home</li>
+	        					<li>Features</li>
+	        					<li><a href="#">Gallery</a></li>
+	        				</ol>
+	        			</div>
+	        		</div><!-- Col end -->
+	        	</div><!-- Row end -->
+       	</div><!-- Container end -->
+    	</div><!-- Banner text end -->
+	</div><!-- Banner area end --> 
+
+	<section id="main-container" class="main-container">
+		<div class="container">
+
+			<div id="isotope" class="isotope gallery">
+				<div class="col-md-4 col-sm-6 col-xs-12 airfreight isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project1.jpg">
+							<img class="img-responsive" src="assets/images/projects/project1.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 1 end -->
+
+				<div class="col-md-4 col-sm-6 col-xs-12 oceanfreight isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project2.jpg">
+							<img class="img-responsive" src="assets/images/projects/project2.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 2 end -->
+
+				<div class="col-md-4 col-sm-6 col-xs-12 cargoexpress isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project3.jpg">
+							<img class="img-responsive" src="assets/images/projects/project3.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 3 end -->
+
+				<div class="col-md-4 col-sm-6 col-xs-12 warhousing isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project4.jpg">
+							<img class="img-responsive" src="assets/images/projects/project4.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 4 end -->
+
+				<div class="col-md-4 col-sm-6 col-xs-12 contractlogistic isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project5.jpg">
+							<img class="img-responsive" src="assets/images/projects/project5.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 5 end -->
+
+				<div class="col-md-4 col-sm-6 col-xs-12 groundtransport isotope-item">
+					<div class="isotope-img-container">
+						<a class="gallery-popup" href="images/projects/project6.jpg">
+							<img class="img-responsive" src="assets/images/projects/project6.jpg" alt="">
+							<span class="gallery-icon"><i class="fa fa-plus"></i></span>
+						</a>
+					</div>
+				</div><!-- Isotope item 6 end -->
+
+			</div><!-- Isotope end -->
+
+		</div><!-- Conatiner end -->
+	</section><!-- Main container end -->
+</Layout>

@@ -1,0 +1,53 @@
+---
+const features = [
+    {
+        icon: "icon-solar-panel",
+        title: "Servicios de Grupos Electrógenos",
+        desc: "Ahorra dinero en servicios eléctricos o aumenta la eficiencia de tu empresa con nuestros grupos electrógenos.",
+        link: "/",
+    },
+    {
+        icon: "icon-wind-turbine",
+        title: "Generadores a Combustible",
+        desc: "Nuestros generadores a combustible son ideales para aplicaciones en sitios remotos o emergencias.",
+        link: "/",
+    },
+    {
+        icon: "icon-hydro-power",
+        title: "Generadores de Diésel",
+        desc: "Ofrecemos generadores diésel de alta calidad diseñados para garantizar un rendimiento confiable y continuo.",
+        link: "/",
+    },
+    {
+        icon: "icon-eco-factory",
+        title: "Generadores Eléctricos",
+        desc: "Nuestros generadores eléctricos proporcionan una solución eficiente para tus necesidades energéticas.",
+        link: "/",
+    }
+];
+---
+
+<!-- ======================
+    Features Layout 4
+========================= -->
+<section class="features-layout4 py-0">
+    <div class="container">
+        <div class="row row-no-gutter features-wrapper">
+            {features.map((feature) => (
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="feature-item">
+                        <div class="feature__icon custom-icon">
+                            <i class={feature.icon}></i>
+                        </div>
+                        <h4 class="feature__title">{feature.title}</h4>
+                        <p class="feature__desc">{feature.desc}</p>
+                        <a href={feature.link} class="btn__link">
+                            <i class="icon-arrow-right icon-filled"></i>
+                            <span>Explore More</span>
+                        </a>
+                    </div>
+                </div>
+            ))}
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.Features Layout 4 -->
